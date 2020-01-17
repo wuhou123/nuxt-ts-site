@@ -1,0 +1,27 @@
+{
+  "name": "wuhoucat",
+  "description": "just a project for wuhoucat",
+  "version": "2.11.0",
+  "private": true,
+  "dependencies": {
+    "@nuxt/typescript-runtime": "0.3.6",
+    "@nuxtjs/axios": "5.9.2",
+    "@nuxtjs/style-resources": "^1.0.0",
+    "element-ui": "^2.13.0",
+    "less": "^3.10.3",
+    "less-loader": "^5.0.0",
+    "mavon-editor": "^2.7.7",
+    "nuxt": "2.11.0",
+    "nuxt-property-decorator": "2.5.0",
+    "vuex-class": "0.3.2"
+  },
+  "scripts": {
+    "dev": "nuxt-ts",
+    "build": "nuxt-ts build",
+    "start": "nuxt-ts start",
+    "generate": "nuxt-ts generate"
+  },
+  "devDependencies": {
+    "@nuxt/typescript-build": "0.5.5"
+  }
+}
