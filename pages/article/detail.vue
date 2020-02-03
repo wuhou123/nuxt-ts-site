@@ -101,12 +101,6 @@ export default class extends Vue {
     }
   ]
   article: any = null
-  // watch
-  // @Watch("article")
-  // onArticleChanged(val: any) {
-  //   console.log("watch", val)
-  // }
-  // created
   created() {
     this.id = this.$route.query.id || ""
   }

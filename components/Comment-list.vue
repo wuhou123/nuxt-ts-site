@@ -12,6 +12,7 @@
             style="background-color: #2d8cf0"
             icon="ios-person"
           /> -->
+          <i class="el-icon-s-custom" style="background-color: #2d8cf0;color:#fff"></i>
         </div>
         <div class="comment-info">
           <h1 class="comment-username">{{ item.nickname }}</h1>
@@ -26,11 +27,7 @@
                 :key="index2"
               >
                 <div class="comment-avatar">
-                  <!-- <Avatar
-                    size="small"
-                    style="background-color: #2d8cf0"
-                    icon="ios-chatbubbles"
-                  /> -->
+                  <i class="el-icon-chat-dot-square" style="background-color: #2d8cf0;color:#fff;margin-top:5px"></i>
                 </div>
                 <div class="comment-info">
                   <h1 class="comment-username">
@@ -122,14 +119,14 @@ export default class extends Vue {
 }
 
 .comment-content {
-  color: #515a6e;
+  color: #888;
   line-height: 36px;
   font-size: 16px;
 }
 
 .comment-reply {
-  padding: 12px 24px;
-  margin: 24px 0;
+  padding: 6px 12px;
+  margin: 12px 0;
   border-radius: 6px;
   background: #f8f8f8;
 }
